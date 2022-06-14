@@ -9,6 +9,10 @@ git clone https://github.com/0jas0jas/TrieApplication
 ```
 
 - Use NodeJs to run the `sendRequest.js` file
+```
+node sendRequest.js
+```
+
 - Follow the instructions from there
 
 
