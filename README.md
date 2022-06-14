@@ -24,12 +24,12 @@ The server contains a trie class which I made and it's running that class for a 
 
 ## Client side functioning
 
-The client side uses many modules for the program's appearance. It sends POST requests to the server with two variables: word and code. The code describes what function has been requested for and the word is the word or the prefix given. This is done in a user-friendly way using colours and fiendly CLI elements.
+The client side uses many modules for the program's appearance. It sends POST requests to the server with two variables: word and code. The code describes what function has been requested for and the word is the word or the prefix given. This is done in a user-friendly way using colours and friendly CLI elements.
 The POST requests are made using axios module (third-party) because it's simpler than using native frameworks. 
 
 ## Trie's functionality
 
-The tree is capable of the following commands
+The trie is capable of the following commands
 
 - insert(word: string): to insert a word or a keyword to the trie in global state
 - remove(word: string): to remove a word from the trie in global state
